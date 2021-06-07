@@ -10,7 +10,7 @@ Fajri Koto, Jey Han Lau, and Timothy Baldwin. [_Discourse Probing of Pretrained 
 In Proceedings of the 20th Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021), Mexico (virtual). 
 
 ## Discourse Probing Tasks
-* Our code is based on Python3 and huggingface Pytroch framework. All libs is listed in `requirements.txt`. 
+* Our code is based on Python3 and huggingface Pytorch framework. All libs is listed in `requirements.txt`. 
 * Please run `pip install -r requirements.txt`
 
 ### 1. Next sentence prediction
