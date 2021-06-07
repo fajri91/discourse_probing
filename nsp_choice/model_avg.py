@@ -6,6 +6,7 @@ from torch.autograd import Variable
 import torch
 import torch.nn as nn
 
+
 TOTAL_SENTENCE=2
 
 def AvgPooling(data, denominator, dim=1):
