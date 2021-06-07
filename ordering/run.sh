@@ -1,5 +1,4 @@
-#BERT MODEL
-
+# BERT 
 CUDA_VISIBLE_DEVICES=1 python probe.py \
     --model_type bert \
     --output_folder output1 \
@@ -26,7 +25,6 @@ CUDA_VISIBLE_DEVICES=1 python probe.py \
 
 
 # ROBERTA
-
 CUDA_VISIBLE_DEVICES=1 python probe.py \
     --model_type roberta \
     --output_folder output1 \
@@ -53,7 +51,6 @@ CUDA_VISIBLE_DEVICES=1 python probe.py \
 
 
 # ALBERT
-
 CUDA_VISIBLE_DEVICES=1 python probe.py \
     --model_type albert \
     --output_folder output1 \
@@ -79,8 +76,7 @@ CUDA_VISIBLE_DEVICES=1 python probe.py \
     --seed 3
 
 
-#ELECTRA MODEL
-
+# ELECTRA
 CUDA_VISIBLE_DEVICES=2 python probe.py \
     --model_type electra \
     --output_folder output1 \
@@ -106,8 +102,7 @@ CUDA_VISIBLE_DEVICES=2 python probe.py \
     --seed 3
 
 
-# gpt2
-
+# GPT2
 CUDA_VISIBLE_DEVICES=2 python probe.py \
     --model_type gpt2 \
     --output_folder output1 \
@@ -133,8 +128,7 @@ CUDA_VISIBLE_DEVICES=2 python probe.py \
     --seed 3
 
 
-#BART MODEL
-
+#BART
 CUDA_VISIBLE_DEVICES=0 python probe.py \
     --model_type bart \
     --output_folder output1 \
@@ -160,8 +154,7 @@ CUDA_VISIBLE_DEVICES=0 python probe.py \
     --seed 3
 
 
-# t5
-
+# T5
 CUDA_VISIBLE_DEVICES=0 python probe.py \
     --model_type t5 \
     --output_folder output1 \
@@ -186,8 +179,8 @@ CUDA_VISIBLE_DEVICES=0 python probe.py \
     --test_data data/data_en/test.json \
     --seed 3
 
-#ZH
 
+# BERT-ZH
 CUDA_VISIBLE_DEVICES=0 python probe.py \
     --model_type bert-zh \
     --output_folder output1 \
@@ -212,7 +205,8 @@ CUDA_VISIBLE_DEVICES=0 python probe.py \
     --test_data data/data_zh/test.json \
     --seed 3
 
-# ES
+
+# BERT-ES
 CUDA_VISIBLE_DEVICES=0 python probe.py \
     --model_type bert-es \
     --output_folder output1 \
@@ -238,7 +232,7 @@ CUDA_VISIBLE_DEVICES=0 python probe.py \
     --seed 3
 
 
-# DE
+# BERT-DE
 CUDA_VISIBLE_DEVICES=0 python probe.py \
     --model_type bert-de \
     --output_folder output1 \
