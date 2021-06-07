@@ -128,6 +128,32 @@ CUDA_VISIBLE_DEVICES=1 python probe.py \
     --seed 3
 
 
+# BART
+CUDA_VISIBLE_DEVICES=7 python probe.py \
+    --model_type bart \
+    --output_folder output1 \
+    --train_data data/train.csv \
+    --dev_data data/dev.csv \
+    --test_data data/test.csv \
+    --seed 1 
+
+CUDA_VISIBLE_DEVICES=7 python probe.py \
+    --model_type bart \
+    --output_folder output2 \
+    --train_data data/train.csv \
+    --dev_data data/dev.csv \
+    --test_data data/test.csv \
+    --seed 2 
+
+CUDA_VISIBLE_DEVICES=7 python probe.py \
+    --model_type bart \
+    --output_folder output3 \
+    --train_data data/train.csv \
+    --dev_data data/dev.csv \
+    --test_data data/test.csv \
+    --seed 3 
+
+
 # T5
 CUDA_VISIBLE_DEVICES=7 python probe.py \
     --model_type t5 \
