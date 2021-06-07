@@ -29,13 +29,13 @@ negative candidates for the next sentence
 * Folder: `dissent`. To run the code you can see the examples at `run.sh`.
 * Data for EN and DE are provided at `dissent/data/`. There is no data for ES.
 * Some samples of ZH data are provided. Due to the re-distribution policy, you first need to request the [CDTB](https://www.aclweb.org/anthology/D14-1224/) to the related author.
-You can extract the data by running `extract_chinese_dtb.ipynb`
+You can extract the data by running `rst/prepare_data/extract_chinese_dtb.ipynb`
 
 ### 4-5. RST nuclearity and relation prediction.
 * Nuclearity prediction: For a given ordered pairing of (potentially complex) EDUs which are connected by an unspecified relation, predict the nucleus/satellite status of each.
 * Relation prediction: For a given ordered pairing of (potentially complex) EDUs which are connected by an unspecified relation, predict the relation that holds between them.
 * Folder: `rst`. To run the code you can see the examples at `run_nuc.sh` and `run_rel.sh`.
-* Some samples of EN, ES, DE, and ZH are provided. For ES, DE, and ZH, you can use: `extract_chinese_dtb.ipynb`, `extract_german_dtb.ipynb`, `extract_spanish_dtb.ipynb` to extract the data (after downloading the related Discourse Tree Bank).
+* Some samples of EN, ES, DE, and ZH are provided. For ES, DE, and ZH, you can use: `rst/prepare_data/extract_chinese_dtb.ipynb`, `rst/prepare_data/extract_german_dtb.ipynb`, `rst/prepare_data/extract_spanish_dtb.ipynb` to extract the data (after downloading the related Discourse Tree Bank).
 There is no code provided for extracting EN data.
 
 ### 6. RST elementary discourse unit (EDU) segmentation. 
